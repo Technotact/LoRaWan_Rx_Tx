@@ -30,15 +30,6 @@ void setup() {
   lcd.begin(20,4); 
   lcd.backlight(); 
   lcd.clear(); 
-  lcd.setCursor(0,0); 
-  lcd.print("BTech MINOR  PROJECT");  
-  lcd.setCursor(0,1); 
-  lcd.print("    VI  SEMESTER    "); 
-  lcd.setCursor(0,2); 
-  lcd.print("PROJECT by Souparno,"); 
-  lcd.setCursor(0,3); 
-  lcd.print("Vidip and Heemangshu"); 
-  delay(4000); 
    
   lcd.clear(); 
   lcd.setCursor(0,0); 
